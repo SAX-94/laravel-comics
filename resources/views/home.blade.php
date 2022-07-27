@@ -5,16 +5,15 @@
 @section('pageMain')
     <main>
         <section class="comics-content">
-        {{------    JUMBOTRON    ------}}
+            {{------    JUMBOTRON    ------}}
             <div id="jumbotron">
-
             </div>
 
             <div class="my_container">
                 <div class="label">
                     <h3>Current Series</h3>
                 </div>
-            {{-------    CARDS    -------}}
+                {{-------    CARDS    -------}}
                 <div class="cards_container">
                     @foreach ($arrComics as $comic)
                         <div class="cards">

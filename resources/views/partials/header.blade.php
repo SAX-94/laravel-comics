@@ -2,7 +2,7 @@
     <a href="{{ route('home') }}">
         <img src="{{ asset('img/dc-logo.png') }}" alt="Logo DC">
     </a>
-{{------    NAVBAR    ------}}
+    {{------    NAVBAR    ------}}
     <nav>
         <ul class="navlist">
             @foreach ($arrNav as $navlink)

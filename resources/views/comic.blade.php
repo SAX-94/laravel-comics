@@ -5,10 +5,10 @@
 @section('pageMain')
     <main>
         <section class="comics-content">
+            {{------    JUMBOTRON    ------}}
             <div id="jumbotron">
-
             </div>
-
+            {{-------    COMICS    -------}}
             <div class="my_container_comic">
                 <div class="label_bg">
                     <div class="label_thumb">
@@ -25,7 +25,7 @@
                                 <h4>AVAILABLE</h4>
                                 <h4>Check Availability</h4>
                             </div>
-                            
+
                             <div class="desc">
                                 <p>{{ $comic['description'] }}</p>
                             </div>
