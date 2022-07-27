@@ -25,6 +25,7 @@
                                 <h4>AVAILABLE</h4>
                                 <h4>Check Availability</h4>
                             </div>
+                            
                             <div class="desc">
                                 <p>{{ $comic['description'] }}</p>
                             </div>
@@ -35,6 +36,7 @@
                             <img src="{{ asset('img/adv.jpg') }}" alt="">
                         </div>
                     </div>
+
                     <div class="container_spec">
                         <div class="flex_container">
                             <div class="talent">
@@ -52,6 +54,7 @@
                                     @endforeach
                                 </span><br>
                             </div>
+
                             <div class="spec">
                                 <h2>SPEC</h2>
                                 <span class="desc_talent">
