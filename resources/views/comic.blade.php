@@ -1,4 +1,4 @@
-@extends('templates.base')
+@extends('layouts.base')
 
 @section('pageTitle', 'DC Comics - Comic')
 
