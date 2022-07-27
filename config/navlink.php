@@ -22,7 +22,7 @@ return [
         'url' => "#",
     ],
     [
-        'text' => "COLLECATIBLES",
+        'text' => "COLLECTIBLES",
         'url' => "#",
     ],
     [
