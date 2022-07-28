@@ -32,8 +32,9 @@
                         </div>
 
                         <div class="adv_container">
+                            {{-- Il file immagine deve essere rinominato diverssmente da "adv", perché altrimneti viene oscurato da AdBlocker --}}
                             <h3>ADVERTISEMENT</h3>
-                            <img src="{{ asset('img/adv.jpg') }}" alt="">
+                            <img src="{{ asset('img/unleash.jpg') }}" alt="">
                         </div>
                     </div>
 
